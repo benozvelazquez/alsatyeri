@@ -74,7 +74,7 @@ function ListingDetail({ user }) {
                     >
                         {listing.image_blob ? (
                             <img
-                                src={`http://localhost:3001/api/listings/${listing.id}/image`}
+                                src={`https://alsatyeri.onrender.com/api/listings/${listing.id}/image`}
                                 alt={listing.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                                 onError={(e) => { e.target.src = 'https://via.placeholder.com/800x1000?text=Görsel+Yüklenemedi'; }}

@@ -132,7 +132,7 @@ function Home({ user }) {
                                 <div className="aspect-[1.1] relative overflow-hidden m-4 rounded-[30px] bg-slate-50 shadow-inner">
                                     {listing.image_blob ? (
                                         <img
-                                            src={`http://localhost:3001/api/listings/${listing.id}/image`}
+                                            src={`https://alsatyeri.onrender.com/api/listings/${listing.id}/image`}
                                             alt={listing.title}
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                             onError={(e) => { e.target.src = 'https://via.placeholder.com/400x500?text=Görsel+Yüklenemedi'; }}
